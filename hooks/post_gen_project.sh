@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mv .projections.json ../
+mv projections.json ../.projections.json
 cd ..; rmdir {{cookiecutter.name}}
